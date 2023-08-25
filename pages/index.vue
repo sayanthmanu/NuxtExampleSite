@@ -77,13 +77,13 @@ const data = ref({
   ls: [],
 });
 useHead({
-  title:"example site",
+  title:"changed site",
   script: [
-        {
-            src: "https://scriptstaging.cookieyes.com/client_data/78601c4645bf02eaceeeb14c/script.js",
-            hid: "cookieyes",
-            type: "text/javascript",
-          },
+            {
+              src: "https://cdn-cookieyes.com/client_data/2daa7fffffb054d3619d1ef7/script.js",
+              hid: "cookieyes",
+              type: "text/javascript",
+            },
     ],
      
     })
