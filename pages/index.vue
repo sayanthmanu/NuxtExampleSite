@@ -66,7 +66,7 @@
 export default {
   data() {
     return {
-      youtubeEmbedCode: '<iframe width="560" height="315" src="https://www.youtube.com/embed/YOUR_VIDEO_ID_HERE" frameborder="0" allowfullscreen></iframe>'
+      youtubeEmbedCode:<iframe width="560" height="315" src="https://www.youtube.com/embed/umFaEpq9ZGI?si=updxEjRT_1Yywtl3" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
     };
   }
 };
