@@ -56,6 +56,22 @@
       Made by Fayaz
     </a>
   </div>
+  <template>
+  <div>
+    <div v-html="youtubeEmbedCode"></div>
+  </div>
+</template>
+
+<script>
+export default {
+  data() {
+    return {
+      youtubeEmbedCode: '<iframe width="560" height="315" src="https://www.youtube.com/embed/YOUR_VIDEO_ID_HERE" frameborder="0" allowfullscreen></iframe>'
+    };
+  }
+};
+</script>
+
 </template>
 
 <script setup>
