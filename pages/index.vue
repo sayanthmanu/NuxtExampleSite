@@ -57,21 +57,6 @@
     </a>
   </div>
 </template>
-<template>
-  <div>
-    <div v-html="embedCode"></div>
-  </div>
-</template>
-
-<script>
-export default {
-  data() {
-    return {
-      embedCode: <iframe width="560" height="315" src="https://www.youtube.com/embed/umFaEpq9ZGI?si=T4M115CBntgSvLmr" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>};
-  },
-};
-</script>
-
 
 <script setup>
 import { encodeData } from "../utils/transformer";
