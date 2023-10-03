@@ -56,14 +56,12 @@
       Made by Fayaz
     </a>
   </div>
- 
+  <template>
   <div>
     <div v-html="youtubeEmbedCode"></div>
   </div>
-
-
-
 </template>
+
 <script>
 export default {
   data() {
@@ -74,6 +72,7 @@ export default {
 };
 </script>
 
+</template>
 
 <script setup>
 import { encodeData } from "../utils/transformer";
